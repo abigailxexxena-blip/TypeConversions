@@ -44,5 +44,18 @@ public class Bank {
 
     }
     public static void report() {
+        System.out.println("\n BANK REPORT ");
+
+        for (int i = 0; i < names.length; i++) {
+
+            System.out.println("\nCustomer " + (i + 1));
+            System.out.println("Name: " + names[i]);
+            System.out.println("Deposit: " + deposit[i]);
+            System.out.println("Rate: " + rate + "%");
+            System.out.println("Interest: " + interest[i]);
+            System.out.println("Total: " + total[i]);
+            System.out.println("Whole Interest: " + wholeInterest[i]);
+            System.out.println("Total: " + total[i]);
+        }
     }
 }
