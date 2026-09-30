@@ -39,6 +39,10 @@ public class Bank {
             total[i] = deposit[i] + interest[i];
 
             wholeInterest[i] = (int) interest[i];
+
         }
+
+    }
+    public static void report() {
     }
 }
