@@ -6,4 +6,7 @@ public class Bank {
     static double[] total;
     static int[] wholeInterest;
     static String[] names;
+    public static void calc() {
+        
+    }
 }
